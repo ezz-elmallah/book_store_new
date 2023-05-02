@@ -1,0 +1,64 @@
+.title {
+    text-align: center;
+
+    padding: 10px;
+    font-family: fantasy;
+    color: aliceblue;
+    background-image: url(../img/Surface\,\ colorful\,\ abstract\,\ bright\,\ 1080x2160\ wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.great {
+    text-align: center;
+    padding: 10px;
+    font-family: fantasy;
+    color: aliceblue;
+    background-image: url(../img/Unknown-4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.lord {
+    text-align: center;
+    padding: 10px;
+    font-family: fantasy;
+    color: black;
+    background-image: url(../img/Fire\ Backgrounds\ and\ Textures\ for\ Photoshop\ Artists.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+img {
+
+    width: 200px;
+    height: 300px;
+}
+
+.fa-arrow-left{
+
+    font-size: xx-large;
+color: white;
+    padding-right:100% ;
+}
+
+.fa-arrow-left:hover{
+color: gray;
+
+}
+hr {
+   
+    border: none;
+}
+
+hr:after {
+   
+    content: '∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿';
+    /* Ratio -> font-size/letter-spacing = 6.25 */
+    letter-spacing: -9.6px;
+    font-size: 60px;
+    color:antiquewhite
+}
+

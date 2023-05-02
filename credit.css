@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/Free\ Vector\ |\ Abstract\ background\ with\ modern\ colors.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #060606;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/Rappi\ Pay\ Prime\ Credit\ Card\ Design.png);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(140, 114, 114, 0.924);
+    max-width: 500px;
+    margin: auto;
+}
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: black;
+    background-color: lightgrey;
+ ;
+}
+select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #0a0909;
+    background-color: #f2f2f2;;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='7'><path d='M1 1l5 5 5-5' stroke='%23333' stroke-width='2' fill='none' fill-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 8px 5px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+}
+.required {
+    color: #f00;
+}
+.card {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #141313;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:
+
+    center;
+}
+.card-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card-info label {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.card-number {
+
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.card-holder, .card-expiration, .card-cvv {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.card-cvv {
+    margin-left: auto;
+}
+.head{
+font-family: fantasy;
+font-weight: bold;
+margin: 30px;
+padding: 30px;
+}
+
+input[type="submit"]{
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+input:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+input:active {
+  transform: scale(0.95);
+}

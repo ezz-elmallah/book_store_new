@@ -1,0 +1,146 @@
+.bs {
+
+  color: rgb(10, 10, 10);
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+  padding: 10px;
+  background-image: url(../img/Unknown-3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: cursive;
+
+}
+
+.b1 {
+  animation: fadeIn 3s;
+  margin-top: 0px;
+  padding: 30px;
+  background-image: url(../img/Light\ Through\ Stair\ And\ Palm\ Leaves\ Shadow\ Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: fantasy
+}
+
+img {
+
+  width: 200px;
+  height: 300px;
+  animation: fadeIn 4s;
+
+}
+
+hr {
+  border: none;
+}
+
+hr:after {
+  content: '∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿';
+  /* Ratio -> font-size/letter-spacing = 6.25 */
+  letter-spacing: -9.6px;
+  font-size: 60px;
+}
+
+.p1 {
+  font-family: fantasy
+}
+
+.buy {
+
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.buy:before {
+  content: "";
+  background: linear-gradient(45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.buy:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+img {
+  --s: 250px;   /* the size of the image */
+  --b: 8px;     /* the border thickness*/
+  --g: 14px;    /* the gap */
+  --c: #4ECDC4; /* the color */
+  
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid rgba(0, 0, 0, 0.194);
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+  
+}
+
+

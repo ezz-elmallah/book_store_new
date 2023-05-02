@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="credit.css">
+    <title>Credit Card Information</title>
+	
+</head>
+<body>
+	<h1 class="head">Credit Card Information</h1>
+	<form>
+		<label for="card-number">Card Number <span class="required">*</span></label>
+		<input type="text" id="card-number" name="card-number" pattern="[0-9]{16}" required>
+
+		<div class="card-info">
+			<label for="card-holder">Cardholder Name <span class="required">*</span></label>
+			<input type="text" id="card-holder" name="card-holder" required>
+		</div>
+
+		<div class="card-info">
+			<label for="card-expiration">Expiration Date <span class="required">*</span></label>
+			<select id="expiration-month" name="expiration-month" required>
+				<option value="">Month</option>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+			</select>
+			<select id="expiration-year" name="expiration-year" required>
+				<option value="">Year</option>
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+				<option value="2024">2024</option>
+				<option value="2025">2025</option>
+				<option value="2026">2026</option>
+				<option value="2027">2027</option>
+			</select>
+		</div>
+
+		<div class="card-info">
+			<label for="card-cvv">CVV <span class="required">*</span></label>
+			<input type="text" id="card-cvv" name="card-cvv" pattern="[0-9]{3,4}" required>
+		</div>
+
+		<input type="submit" value="Submit">
+	</form>
+
+	<div class="card
+ 
