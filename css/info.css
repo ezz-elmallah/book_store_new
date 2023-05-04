@@ -31,6 +31,45 @@
 
 }
 
+.harry {
+    text-align: center;
+    padding: 10px;
+    font-family: fantasy;
+    color: black;
+    background-image: url(../img/|\ Hogwarts\ Castle\ |\ Harry\ Potter\ |\ Magic\ Castle\ |\ Harry\ Potter\ movies\ |\ Harry\ Potter\ Wands\ |.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+.hunger{
+
+    text-align: center;
+    padding: 10px;
+    font-family: fantasy;
+    color: white;
+    background-image: url(../img/Touch\ The\ Sky\ \ -\ Aesthetics.jpg);
+    background-size: cover;
+    background-attachment: absolute;
+
+
+
+
+}
+.wrinkle{
+    text-align: center;
+    padding: 10px;
+    font-family: fantasy;
+    color: white;
+    background-image: url(../img/crumbling\ wizard\'s\ tower\ in\ a\ grassy\ field\ under\ a\ swirling\ night\ sky\ by\ Atey\ Ghailan\,\ Paul\ Cezanne\,.png);
+    background-size: cover;
+    background-attachment: absolute;
+
+
+
+}
+
 img {
 
     width: 200px;

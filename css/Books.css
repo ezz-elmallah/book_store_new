@@ -1,34 +1,53 @@
 .bs {
 
-  color: rgb(10, 10, 10);
+  color: rgb(245, 242, 242);
   text-align: center;
   font-size: 40px;
-  margin: 0px;
-  padding: 10px;
-  background-image: url(../img/Unknown-3.jpg);
+  margin-bottom:  0px;
+  padding: 50px;
+  background: linear-gradient(rgb(246, 161, 4) , rgba(45, 119, 140, 0.987));
   background-size: cover;
   background-attachment: fixed;
   font-family: cursive;
 
 }
+.img{
+  background-color:aliceblue;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 50px;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+  
+  
 
-.b1 {
-  animation: fadeIn 3s;
-  margin-top: 0px;
-  padding: 30px;
-  background-image: url(../img/Light\ Through\ Stair\ And\ Palm\ Leaves\ Shadow\ Background.jpg);
+
+
+
+
+.row{
+  background-image: url(../img/Unknown-9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: fantasy
+
 }
 
 img {
-
   width: 200px;
   height: 300px;
   animation: fadeIn 4s;
+  text-align: center;
 
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 hr {
@@ -43,7 +62,13 @@ hr:after {
 }
 
 .p1 {
+text-align: center;
+  margin-left: 40px;
+  font-size: x-large;
+  
   font-family: fantasy
+  
+  
 }
 
 .buy {
@@ -124,7 +149,7 @@ hr:after {
     opacity: 1;
   }
 }
-img {
+.img {
   --s: 250px;   /* the size of the image */
   --b: 8px;     /* the border thickness*/
   --g: 14px;    /* the gap */
@@ -137,7 +162,7 @@ img {
   cursor: pointer;
   transition: 0.3s;
 }
-img:hover {
+.img:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
   
